@@ -1,0 +1,120 @@
+/*limpar formatação padrão*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*Elemetos HTML*/
+
+body {
+	font-size: 1em;
+	background-color: #e6e6e6;
+	font-family: "Times New Roman", Times, serif;
+	
+}
+
+h1 {
+	color: #9c3636;
+	font-size: 2.5em;
+}
+
+h3 {
+	background-color: #e6e6e6;
+	padding: 5px;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+/*ID's*/
+#cabeça {
+	background-color: #bf0000;
+	padding: 15px;
+	text-align: center;
+}
+
+#logo, #links {
+	padding: 10px;
+}
+
+#principal {
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#postagens {
+	width: 680px;
+	float: left;
+}
+
+#lateral {
+	width: 220px;
+	float: right;
+
+}
+
+#rodape {
+	clear: both;
+	text-align: center;
+	padding: 14px;
+}
+
+/*Classes*/
+
+.house {
+	color: #4d4242;
+}
+
+.imagem {
+	width: 635px;
+}
+
+.data {
+	font-size: 0.7em;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.postagem {
+	padding: 20px;
+	background-color: #5c5b5b;
+	margin-bottom: 20px;
+
+}
+
+.boxlat {
+	background-color: #5c5b5b;
+	padding: 4px;
+	margin-bottom: 20px;
+	
+}
+
+.contentlat {
+	padding: 5px;
+}
+
+.textlat{
+	font-size: 0.8em;
+}
+
+/*Formatação de links*/
+
+#cabeça a:link, #cabeça a:visited {
+	color: #FFF;
+	margin: 56px;
+	padding: 15px;
+}
+
+a:hover {
+	color: bf0000;
+	background-color: #e6e6e6;
+}
+
+#lateral a:link, a:visited {
+	color: #9e160d;
+}
