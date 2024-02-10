@@ -8,13 +8,13 @@
 
 body {
 	font-size: 1em;
-	background-color: #e6e6e6;
+	background-color: #000;
 	font-family: "Times New Roman", Times, serif;
 	
 }
 
 h1 {
-	color: #9c3636;
+	color: #7a020c;
 	font-size: 2.5em;
 }
 
@@ -112,7 +112,7 @@ a {
 
 a:hover {
 	color: bf0000;
-	background-color: #e6e6e6;
+	background-color: #000;
 }
 
 #lateral a:link, a:visited {
